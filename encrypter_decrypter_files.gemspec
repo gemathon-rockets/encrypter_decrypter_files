@@ -4,10 +4,10 @@ Gem::Specification.new do |s|
   s.name        = 'encrypter_decrypter_files'
   s.version     = '0.0.1'
   s.date        = '2014-02-20'
-  s.summary     = "Secure your uploaded files by carrierwave"
-  s.description = "A library supporting Ruby OpenSSL::Cipher and OpenSSL::PKCS5 for the file encryption and decryption"
-  s.authors     = ["Ankit gupta"]
-  s.email       = 'ankit.gupta8898@gmail.com'
+  s.summary     = "Encrypt Decrypt Any file using OpenSSL::AES"
+  s.description = "Encrypt Decrypt Any file using OpenSSL::AES"
+  s.authors     = ["Ankit gupta","Ekta Verma"]
+  s.email       = ['ankit.gupta8898@gmail.com','eku4evr@gmail.com']
   s.files       = [
                     "lib/encrypter_decrypter/decrypt.rb",
                     "lib/encrypter_decrypter/encrypt.rb",
@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'awesome_print'
   s.license = 'MIT'
   s.homepage    =
-    'https://github.com/ankit8898/carrierwave_encrypter_decrypter'
+    'https://github.com/gemathon-rockets/encrypter_decrypter_files'
 end
