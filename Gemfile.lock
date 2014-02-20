@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    encrypter_decrypter_files (0.0.1)
+      awesome_print
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  encrypter_decrypter_files!
