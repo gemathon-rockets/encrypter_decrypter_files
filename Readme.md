@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gemathon-rockets/encrypter_decrypter_files.png?branch=master)](https://travis-ci.org/gemathon-rockets/encrypter_decrypter_files)[![Gem Version](https://badge.fury.io/rb/encrypter_decrypter_files.png)](http://badge.fury.io/rb/encrypter_decrypter_files)
+
 # Encrypter Decrypter Files
 
 A Ruby Gem to Secure your files Easily Using OpenSSL::AES Standars
