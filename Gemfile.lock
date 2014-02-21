@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    encrypter_decrypter_files (0.0.1)
+    encrypter_decrypter_files (0.0.2)
       awesome_print
 
 GEM
