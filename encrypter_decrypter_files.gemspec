@@ -16,6 +16,8 @@ Gem::Specification.new do |s|
                     "lib/helper.rb"]          
   s.require_paths = ["lib"]
   s.add_runtime_dependency 'awesome_print'
+  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'rake'
   s.license = 'MIT'
   s.homepage    =
     'https://github.com/gemathon-rockets/encrypter_decrypter_files'
