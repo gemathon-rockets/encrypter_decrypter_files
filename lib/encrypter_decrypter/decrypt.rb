@@ -12,7 +12,7 @@ def trigger_decryption
   key = data[original_file_name][:key]
   iv = data[original_file_name][:iv]
 
-  cipher = OpenSSL::Cipher.new('aes-256-cbc')
+  cipher = OpenSSL::Cipher.new("aes-#{@key_size}-cbc")
   cipher.decrypt
   cipher.key = key
   cipher.iv = iv

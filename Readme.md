@@ -18,6 +18,14 @@ Usage
 	1.9.3-p448 :002 > EDfile.encrypt(path: 'foo.txt')
  	=> 123 
 
+You can also pass on the `key_size` by default it's `256`
+
+	Ankits-MacBook-Pro:encrypter_decrypter_files ankitgupta$ irb
+	1.9.3-p448 :001 > require 'encrypter_decrypter_files'
+ 	=> true 
+	1.9.3-p448 :002 > EDfile.encrypt(path: 'foo.txt',key_size: 128)
+ 	=> 122
+
 The Above will store the values in a `iv_key.yml`, Eg
 
 	foo.txt:

@@ -8,7 +8,7 @@ class EDfile < Base
 end
 
 def trigger_encryption
-  cipher = OpenSSL::Cipher.new('aes-256-cbc')
+  cipher = OpenSSL::Cipher.new("aes-#{@key_size}-cbc")
   cipher.encrypt
   key = cipher.random_key
   iv = cipher.random_iv

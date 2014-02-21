@@ -2,7 +2,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'encrypter_decrypter_files'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.date        = '2014-02-20'
   s.summary     = "Encrypt Decrypt Any file using OpenSSL::AES"
   s.description = "Encrypt Decrypt Any file using OpenSSL::AES"
