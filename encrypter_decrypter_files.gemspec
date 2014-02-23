@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
                     "lib/encrypter_decrypter/encrypt.rb",
                     "lib/encrypter_decrypter/base.rb",
                     "lib/encrypter_decrypter_files.rb",
-                    "lib/helper.rb"]          
+                    "lib/encrypter_decrypter_files/helper.rb"]          
   s.require_paths = ["lib"]
   s.add_runtime_dependency 'awesome_print'
   s.add_development_dependency 'rspec'
